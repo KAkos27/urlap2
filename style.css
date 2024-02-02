@@ -1,0 +1,59 @@
+main {
+  height: 50vh;
+  background-color: lavender;
+  margin: auto;
+  padding: 10px;
+  width: 40%;
+}
+.kek {
+  background-color: aqua;
+  border: 1px solid blue;
+}
+.zold {
+  background-color: lightgreen;
+  border: 1px solid green;
+}
+.jobbra {
+  float: right;
+}
+#piros label::after {
+  content: "*";
+  color: red;
+}
+#masodikt {
+  margin-top: 20px;
+}
+#kekcim {
+  color: blue;
+  background-color: lightblue;
+}
+#szemelyes {
+  background-color: white;
+  border: 1px solid blue;
+  width: 92%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+select {
+  height: 20px;
+}
+#szak {
+  grid-row: 1;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#nem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#reg {
+  margin-top: 10px;
+  background-color: lightgreen;
+  border: 1px solid green;
+}
+input,
+button,
+select {
+  cursor: pointer;
+}

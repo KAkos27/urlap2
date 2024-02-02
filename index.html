@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form action="#" method="get">
+        <div id="elsot">
+          <fieldset class="kek" id="piros">
+            <legend class="zold">Regisztráció</legend>
+            <label for="f_nev">Felhasználónév</label>
+            <input
+              type="text"
+              placeholder="Róka Rudi"
+              class="jobbra"
+              required
+            />
+            <br /><br />
+            <label for="j_szo">Jelszó</label>
+            <input
+              type="text"
+              placeholder="min. 6 karakter"
+              class="jobbra"
+              required
+            /><br /><br />
+            <label for="e_cim">E-mail cím</label>
+            <input
+              type="text"
+              placeholder="vmi@gmail.hu"
+              class="jobbra"
+              required
+            />
+          </fieldset>
+        </div>
+        <div id="masodikt">
+          <fieldset class="kek">
+            <legend class="zold">Születés</legend>
+            <label for="sz_datum">Születési dátum</label>
+            <input type="date" name="datum" id="datum" class="jobbra" />
+            <fieldset id="szemelyes">
+              <legend id="kekcim">Személyes</legend>
+              <div>
+                <input type="checkbox" />
+                <label for="angol">angol</label><br />
+                <input type="checkbox" />
+                <label for="angol">német</label>
+              </div>
+              <div id="szak">
+                <label for="v_szak">Választott szak:</label>
+                <select name="szak" id="szak">
+                  <option value="1">SZFA1</option>
+                  <option value="2">SZFA2</option>
+                  <option value="b1">SZFB1</option>
+                </select>
+              </div>
+              <div id="nem">
+                <input type="radio" name="a" />
+                <label for="f">férfi</label>
+                <input type="radio" name="a"/>
+                <label for="n">nő</label>
+              </div>
+            </fieldset>
+          </fieldset>
+        </div>
+        <button id="reg" type="submit">Regisztráció</button>
+      </form>
+    </main>
+  </body>
+</html>
