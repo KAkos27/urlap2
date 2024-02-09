@@ -15,7 +15,7 @@
             <label for="f_nev">Felhasználónév</label>
             <input
               type="text"
-              placeholder="Róka Rudi"
+              placeholder="Roka Rudi"
               class="jobbra"
               required
             />
@@ -25,6 +25,7 @@
               type="text"
               placeholder="min. 6 karakter"
               class="jobbra"
+              pattern=".{6,}"
               required
             /><br /><br />
             <label for="e_cim">E-mail cím</label>
@@ -40,7 +41,7 @@
           <fieldset class="kek">
             <legend class="zold">Születés</legend>
             <label for="sz_datum">Születési dátum</label>
-            <input type="date" name="datum" id="datum" class="jobbra"/>
+            <input type="date" name="datum" id="datum" class="jobbra" />
             <fieldset id="szemelyes">
               <legend id="kekcim">Személyes</legend>
               <div id="nyelv">
@@ -60,7 +61,7 @@
               <div id="nem">
                 <input type="radio" name="a" />
                 <label for="f">férfi</label>
-                <input type="radio" name="a"/>
+                <input type="radio" name="a" />
                 <label for="n">nő</label>
               </div>
             </fieldset>
